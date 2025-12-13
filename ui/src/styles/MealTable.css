@@ -1,0 +1,177 @@
+
+.meal-table-wrapper {
+    width: 90%;
+    max-width: 1100px;
+    margin: 30px auto;
+    padding: 25px;
+    background: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+    animation: fadeIn 0.3s ease-in-out;
+  }
+  
+  .meal-table-wrapper h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #333;
+    font-weight: 600;
+  }
+  
+ 
+  .meal-table {
+    width: 100%;
+    border-collapse: collapse;
+    overflow: hidden;
+    border-radius: 12px;
+  }
+  
+  .meal-table thead {
+    background: #46e56e;
+    color: white;
+  }
+  
+  .meal-table th {
+    padding: 14px 10px;
+    font-size: 16px;
+    text-align: left;
+    letter-spacing: 0.5px;
+  }
+  
+  .meal-table tbody tr {
+    background: #fafafa;
+    border-bottom: 1px solid #e0e0e0;
+    transition: background 0.2s ease;
+  }
+  
+  .meal-table tbody tr:hover {
+    background: #f0f0ff;
+  }
+  
+  .meal-table td {
+    padding: 12px;
+    font-size: 15px;
+    color: #333;
+  }
+  
+ 
+  .empty-row {
+    text-align: center;
+    padding: 18px;
+    font-style: italic;
+    color: #666;
+  }
+  
+ 
+  .meal-table input {
+    width: 90%;
+    padding: 8px 10px;
+    border: 1px solid #bbb;
+    border-radius: 8px;
+    font-size: 14px;
+    transition: all 0.2s ease;
+  }
+  
+  .meal-table input:focus {
+    border-color: #46e57b;
+    outline: none;
+    box-shadow: 0 0 4px rgba(70, 229, 115, 0.4);
+  }
+  
+
+  button {
+    padding: 7px 12px;
+    font-size: 14px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s ease;
+    margin-right: 6px;
+  }
+  
+ 
+  .edit-btn {
+    background: #24c637;
+    color: white;
+  }
+  
+  .edit-btn:hover {
+    background: #26c317;
+  }
+  
+  
+  .delete-btn {
+    background: #ef4444;
+    color: white;
+  }
+  
+  .delete-btn:hover {
+    background: #dc2626;
+  }
+  
+ 
+  .save-btn {
+    background: #16a34a;
+    color: white;
+  }
+  
+  .save-btn:hover {
+    background: #15803d;
+  }
+  
+
+  .cancel-btn {
+    background: #6b7280;
+    color: white;
+  }
+  
+  .cancel-btn:hover {
+    background: #4b5563;
+  }
+  
+ 
+  .meal-msg {
+    margin-top: 15px;
+    text-align: center;
+    padding: 10px;
+    background: #e0ffe3;
+    color: #0d7a1d;
+    border-left: 5px solid #16a34a;
+    border-radius: 8px;
+    font-weight: 500;
+    animation: slideDown 0.3s ease;
+  }
+  
+
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
+  @keyframes slideDown {
+    from { opacity: 0; transform: translateY(-5px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
+
+  @media (max-width: 768px) {
+    .meal-table-wrapper {
+      padding: 15px;
+    }
+  
+    .meal-table th,
+    .meal-table td {
+      padding: 10px;
+      font-size: 13px;
+    }
+  
+    button {
+      padding: 6px 10px;
+      font-size: 13px;
+    }
+  
+    .meal-table input {
+      width: 100%;
+    }
+  }
+  
