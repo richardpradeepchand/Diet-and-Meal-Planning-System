@@ -19,12 +19,7 @@ System Architecture- DietMaster is built using the MERN stack, with each layer h
 3.Database (MongoDB + Mongoose) - MongoDB stores user profiles, daily meal entries, and calorie goals. Mongoose ensures clean and structured data models.
 User Authentication is secured using token-based(JWT) authentication.
 
-Run application(command)
-- cd services
-- npm run pro
-- Run Test
-- cd services
-- npm test
+Render:https://diet-and-meal-planning-system-3.onrender.com
 
 References:
 https://www.geeksforgeeks.org/reactjs/reactjs-hooks-complete-reference/
